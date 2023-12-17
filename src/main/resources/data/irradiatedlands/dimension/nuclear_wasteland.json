@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "irradiatedlands:wasteland",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "irradiatedlands:wastes"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "quality": 1,
+                    "name": "irradiatedlands:radiation_stim"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "quality": 1,
+                    "name": "irradiatedlands:dosimeter"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "irradiatedlands:bottlecap"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "irradiatedlands:trinitite"
+                }
+            ]
+        }
+    ]
+}

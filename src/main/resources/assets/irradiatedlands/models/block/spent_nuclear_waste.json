@@ -1,6 +1,6 @@
     {
       "parent": "block/cube_all",
       "textures": {
-        "all": "irradiatedlands:block/trinitite"
+        "all": "irradiatedlands:block/spent_nuclear_waste"
       }
     }

@@ -2,22 +2,26 @@
   "schemaVersion": 1,
   "id": "irradiatedlands",
   "version": "${version}",
-
   "name": "Irradiated Lands",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/linux-pop_os-machine/Irradiated Lands"
+  },
   "license": "Apache-2.0",
   "icon": "assets/irradiatedlands/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "irradiatedlands.mixins.json"
-      ],
-
+  "entrypoints": {
+    "client": [
+      "com.github.anopensaucedev.irradiatedlands.client.IrradiatedLandsClient"
+    ],
+    "main": [
+      "com.github.anopensaucedev.irradiatedlands.IrradiatedLands"
+    ]
+  },
+  "mixins": [
+    "irradiatedlands.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "minecraft": "${minecraft_version}"

@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "irradiatedlands:office_1",
+        "location": "irradiatedlands:cache_1",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }

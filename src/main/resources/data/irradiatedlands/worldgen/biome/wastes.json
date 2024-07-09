@@ -6,8 +6,8 @@
     "effects": {
         "sky_color": 9864000,
         "fog_color": 9403448,
-        "water_color": 4159204,
-        "water_fog_color": 329011,
+        "water_color": 2640651,
+        "water_fog_color": 2640651,
         "grass_color": 9403448,
         "foliage_color": 9864000,
         "mood_sound": {
@@ -18,28 +18,47 @@
         },
         "music": {
             "sound": "irradiatedlands:lostlands",
-            "min_delay": 1,
-            "max_delay": 2,
+            "min_delay": 0,
+            "max_delay": 0,
             "replace_current_music": true
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:campfire_cosy_smoke"
+            },
+            "probability": 0.001
         }
     },
     "spawners": {
         "monster": [
             {
                 "type": "minecraft:husk",
-                "weight": 1,
-                "minCount": 5,
+                "weight": 3,
+                "minCount": 3,
                 "maxCount": 30
+            },
+            {
+                "type": "minecraft:wither_skeleton",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 3
             }
         ]
     },
     "spawn_costs": {},
     "carvers": {
         "air": [
+            "minecraft:canyon",
             "minecraft:cave",
-            "minecraft:cave_extra_underground",
-            "minecraft:canyon"
+            "minecraft:nether_cave"
+        ],
+        "liquid": [
+            "minecraft:cave"
         ]
     },
-    "features": []
+    "features": [
+        [
+            "irradiatedlands:deadtree"
+        ]
+    ]
 }

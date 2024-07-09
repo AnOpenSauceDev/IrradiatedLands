@@ -1,4 +1,9 @@
 package com.github.anopensaucedev.irradiatedlands.items.caps;
 
-public class Bottlecap {
+import net.minecraft.item.Item;
+
+public class Bottlecap extends Item {
+    public Bottlecap(Settings settings) {
+        super(settings);
+    }
 }

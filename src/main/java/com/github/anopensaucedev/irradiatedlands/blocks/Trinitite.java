@@ -1,4 +1,9 @@
 package com.github.anopensaucedev.irradiatedlands.blocks;
 
-public class Trinitite {
+import net.minecraft.block.Block;
+
+public class Trinitite extends Block {
+    public Trinitite(Settings settings) {
+        super(settings);
+    }
 }

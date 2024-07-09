@@ -1,14 +1,14 @@
 {
-  "structures": [
+  "fallback": "minecraft:empty",
+  "elements": [
     {
-      "structure": "irradiatedlands:irradiated_shack_1",
-      "weight": 1
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "irradiatedlands:irradiated_shack_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
-  ],
-  "placement": {
-    "type": "minecraft:random_spread",
-    "spacing": 15,
-    "separation": 5,
-    "salt": 1646207470
-  }
+  ]
 }

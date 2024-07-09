@@ -1,0 +1,12 @@
+{
+  "item.irradiatedlands.dosimeter": "Radiation Dosimeter",
+  "item.irradiatedlands.radiation_stim": "Anti-Radiation Stim",
+  "item.irradiatedlands.bottlecap": "Bottle Cap",
+  "item.irradiatedlands.creeper_cola": "Cola",
+  "item.irradiatedlands.star_bottlecap": "Bottle Cap",
+  "item.irradiatedlands.suit_helmet": "Gas Mask",
+  "block.irradiatedlands.trinitite": "Trinitite",
+  "block.irradiatedlands.spent_nuclear_waste": "Spent Nuclear Waste",
+  "effect.irradiatedlands.irradiated": "Radiation Poisoning",
+  "effect.irradiatedlands.radiation_shielding": "Anti-Radiation Injection"
+}

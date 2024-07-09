@@ -1,11 +1,11 @@
 {
     "pools": [
         {
-            "rolls": 5,
+            "rolls": 12,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "irradiatedlands:radiation_stim"
                 },
@@ -23,8 +23,13 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "irradiatedlands:trinitite"
+                    "weight": 2,
+                    "name": "irradiatedlands:creeper_cola"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:cooked_beef"
                 }
             ]
         }

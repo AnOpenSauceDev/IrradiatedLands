@@ -1,4 +1,4 @@
-package com.github.anopensaucedev.irradiatedlands.blocks;
+package com.github.anopensaucedev.irradiatedlands.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -11,8 +11,6 @@ public class Constants {
     public static final String MOD_ID = "irradiatedlands";
 
     public static final int RADIATION_POISONING_THRESHOLD = 500;
-
-
 
     public static int OVERWORLD_BACKGROUND_RADIATION = 1;
 

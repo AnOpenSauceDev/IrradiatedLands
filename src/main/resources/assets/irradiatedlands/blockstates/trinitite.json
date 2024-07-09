@@ -1,6 +1,6 @@
 {
   "variants": {
-    "#": { "model": "irradiatedlands:block/trinitite" }
+    "": { "model": "irradiatedlands:block/trinitite" }
   }
 }
 

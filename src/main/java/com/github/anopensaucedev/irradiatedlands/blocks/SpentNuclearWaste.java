@@ -1,4 +1,9 @@
 package com.github.anopensaucedev.irradiatedlands.blocks;
 
-public class SpentNuclearWaste {
+import net.minecraft.block.Block;
+
+public class SpentNuclearWaste extends Block {
+    public SpentNuclearWaste(Settings settings) {
+        super(settings);
+    }
 }

@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 12,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:cooked_beef"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irradiatedlands:radiation_stim"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irradiatedlands:creeper_cola"
+        }
+      ]
+    }
+  ]
+}

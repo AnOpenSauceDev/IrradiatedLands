@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "irradiatedlands:item/dosimeter"
+    "layer0": "irradiatedlands:item/star_bottlecap"
   }
 }
